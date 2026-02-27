@@ -5,12 +5,15 @@
   <meta name="author" content="Art 444 Student Work">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Welcome to my new website!</title>
-  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  
 </head>
 <body>
 
 <!-- NAV BAR -->
  <section id="nav-bar">
+  <div class="nav-flex">
 
     <div class="container">
       <!--how does one insert a svg into this purple rectangle-->
@@ -19,37 +22,44 @@
         <rect x="40" y="18" rx="20" ry="20" width="90" height="38"
         style="fill: purple;"></rect>
       </svg> -->
-      <h1><a href="index.html">Raena Nguyen</a></h1>
+      <h1 class="nav-name"><a href="index.html">Raena Nguyen</a></h1>
 
     </div>
-
+  
     <nav>
-    <div class="container">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      
-      </ul>
-    
-    </div>
-  </nav>
+      <div class="container">
+        <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        </div>
 
+      </div>
+    </nav>
+    
+  </div>
  </section>
 
 
 <!-- MAIN HEADER --> 
-<section id="header" class="header">
+<section id="header" class="home-header">
   <div class="container">
-    <h2>My name is</h2>
-    <div>
-      <h2>Hello!</h2>
-     <h1>Raena Nguyen</h1>
-    </div>
+    
+    <div class="header">
+      <h2>My name is</h2>
 
-    <!-- button to About me page-->
-    <h2> Learn more about me!</h2>
-    <!-- <a href="index.html" target="_blank">Home</a>
-    <a href="about.html" target="_blank">About Me</a> -->
+      <div class="main">
+        <h2>Hello!</h2>
+      <h1 class="my-name">Raena Nguyen</h1>
+      </div>
+
+        <div class="learn-more-button">
+      <!-- button to About me page-->
+      <h2> Learn more about me!</h2>
+
+      <!-- <a href="index.html" target="_blank">Home</a>
+      <a href="about.html" target="_blank">About Me</a> -->
+      </div>
+    </div>
   </div>
 </section>
 
@@ -70,14 +80,19 @@
 <section id="spring-2026">
   <div class="container">
     <h1>My SDSU Experience</h1>
+
     <div class="gallery">
-      <img src="images/spring26-type2.png" alt="Dreamy typography poster" loading="lazy"/>
+      <img src="images/spring26-type2.jpg" alt="Dreamy typography poster" loading="lazy"/>
       <img src="images/placeholder.jpg" alt="Placeholder image" loading="lazy"/>
       <img src="images/placeholder.jpg" alt="Placeholder image" loading="lazy"/>
     </div>
-    <h2>Spring 2026</h2>
-    <h3>Jan 2026 - May 2026</h3>
-    <p>Suspendisse ac vehicula sapien. Curabitur congue felis at erat congue, nec pulvinar mi pulvinar. Cras nisl dui, interdum sit amet viverra vitae, tempus sit amet urna. Donec ipsum odio, scelerisque id vehicula ut, pulvinar quis ipsum. Phasellus venenatis tristique felis a consectetur. Aenean consectetur, nulla nec tincidunt semper, nibh erat semper justo, vitae luctus lorem quam et quam. Curabitur ut metus sed est commodo iaculis. Donec sollicitudin purus sem, vitae consectetur dui tincidunt eu. Donec pretium nibh et diam porttitor, non vehicula augue viverra. Ut diam turpis, imperdiet et tempor fermentum, maximus a nunc. Donec bibendum in libero egestas tempus. Suspendisse vel sem eu turpis blandit viverra. Nam tristique feugiat justo, ullamcorper faucibus eros suscipit vel. Cras interdum, purus eget semper ullamcorper, felis lorem interdum justo, in tincidunt nulla erat vitae erat.</p>
+
+    <div class="semester-text">
+      <h2>Spring 2026</h2>
+      <h3>Jan 2026 - May 2026</h3>
+      <p>Suspendisse ac vehicula sapien. Curabitur congue felis at erat congue, nec pulvinar mi pulvinar. Cras nisl dui, interdum sit amet viverra vitae, tempus sit amet urna. Donec ipsum odio, scelerisque id vehicula ut, pulvinar quis ipsum. Phasellus venenatis tristique felis a consectetur. Aenean consectetur, nulla nec tincidunt semper, nibh erat semper justo, vitae luctus lorem quam et quam. Curabitur ut metus sed est commodo iaculis. Donec sollicitudin purus sem, vitae consectetur dui tincidunt eu. Donec pretium nibh et diam porttitor, non vehicula augue viverra. Ut diam turpis, imperdiet et tempor fermentum, maximus a nunc. Donec bibendum in libero egestas tempus. Suspendisse vel sem eu turpis blandit viverra. Nam tristique feugiat justo, ullamcorper faucibus eros suscipit vel. Cras interdum, purus eget semper ullamcorper, felis lorem interdum justo, in tincidunt nulla erat vitae erat.</p>
+    </div>
+
   </div>
 </section>
 
@@ -90,9 +105,13 @@
       <img src="images/fall25-3dfab.jpg" alt="Placeholder image" loading="lazy"/>
       <img src="images/fall25-filmclass.JPG" alt="Placeholder image" loading="lazy"/>
     </div>
-    <h2>Fall 2025</h2>
-    <h3>Aug 2025 - Dec 2025</h3>
-    <p>Suspendisse ac vehicula sapien. Curabitur congue felis at erat congue, nec pulvinar mi pulvinar. Cras nisl dui, interdum sit amet viverra vitae, tempus sit amet urna. Donec ipsum odio, scelerisque id vehicula ut, pulvinar quis ipsum. Phasellus venenatis tristique felis a consectetur. Aenean consectetur, nulla nec tincidunt semper, nibh erat semper justo, vitae luctus lorem quam et quam. Curabitur ut metus sed est commodo iaculis. Donec sollicitudin purus sem, vitae consectetur dui tincidunt eu. Donec pretium nibh et diam porttitor, non vehicula augue viverra. Ut diam turpis, imperdiet et tempor fermentum, maximus a nunc. Donec bibendum in libero egestas tempus. Suspendisse vel sem eu turpis blandit viverra. Nam tristique feugiat justo, ullamcorper faucibus eros suscipit vel. Cras interdum, purus eget semper ullamcorper, felis lorem interdum justo, in tincidunt nulla erat vitae erat.</p>
+
+    <div class="semester-text">
+      <h2>Fall 2025</h2>
+      <h3>Aug 2025 - Dec 2025</h3>
+      <p>Suspendisse ac vehicula sapien. Curabitur congue felis at erat congue, nec pulvinar mi pulvinar. Cras nisl dui, interdum sit amet viverra vitae, tempus sit amet urna. Donec ipsum odio, scelerisque id vehicula ut, pulvinar quis ipsum. Phasellus venenatis tristique felis a consectetur. Aenean consectetur, nulla nec tincidunt semper, nibh erat semper justo, vitae luctus lorem quam et quam. Curabitur ut metus sed est commodo iaculis. Donec sollicitudin purus sem, vitae consectetur dui tincidunt eu. Donec pretium nibh et diam porttitor, non vehicula augue viverra. Ut diam turpis, imperdiet et tempor fermentum, maximus a nunc. Donec bibendum in libero egestas tempus. Suspendisse vel sem eu turpis blandit viverra. Nam tristique feugiat justo, ullamcorper faucibus eros suscipit vel. Cras interdum, purus eget semper ullamcorper, felis lorem interdum justo, in tincidunt nulla erat vitae erat.</p>
+    </div>
+
   </div>
 </section>
 
@@ -105,9 +124,13 @@
       <img src="images/spring25-hammer.JPG" alt="Placeholder image" loading="lazy"/>
       <img src="images/placeholder.jpg" alt="Placeholder image" loading="lazy"/>
     </div>
-    <h2>Spring 2025</h2>
-    <h3>Jan 2025 - May 2025</h3>
-    <p>Suspendisse ac vehicula sapien. Curabitur congue felis at erat congue, nec pulvinar mi pulvinar. Cras nisl dui, interdum sit amet viverra vitae, tempus sit amet urna. Donec ipsum odio, scelerisque id vehicula ut, pulvinar quis ipsum. Phasellus venenatis tristique felis a consectetur. Aenean consectetur, nulla nec tincidunt semper, nibh erat semper justo, vitae luctus lorem quam et quam. Curabitur ut metus sed est commodo iaculis. Donec sollicitudin purus sem, vitae consectetur dui tincidunt eu. Donec pretium nibh et diam porttitor, non vehicula augue viverra. Ut diam turpis, imperdiet et tempor fermentum, maximus a nunc. Donec bibendum in libero egestas tempus. Suspendisse vel sem eu turpis blandit viverra. Nam tristique feugiat justo, ullamcorper faucibus eros suscipit vel. Cras interdum, purus eget semper ullamcorper, felis lorem interdum justo, in tincidunt nulla erat vitae erat.</p>
+
+    <div class="semester-text">
+      <h2>Spring 2025</h2>
+      <h3>Jan 2025 - May 2025</h3>
+      <p>Suspendisse ac vehicula sapien. Curabitur congue felis at erat congue, nec pulvinar mi pulvinar. Cras nisl dui, interdum sit amet viverra vitae, tempus sit amet urna. Donec ipsum odio, scelerisque id vehicula ut, pulvinar quis ipsum. Phasellus venenatis tristique felis a consectetur. Aenean consectetur, nulla nec tincidunt semper, nibh erat semper justo, vitae luctus lorem quam et quam. Curabitur ut metus sed est commodo iaculis. Donec sollicitudin purus sem, vitae consectetur dui tincidunt eu. Donec pretium nibh et diam porttitor, non vehicula augue viverra. Ut diam turpis, imperdiet et tempor fermentum, maximus a nunc. Donec bibendum in libero egestas tempus. Suspendisse vel sem eu turpis blandit viverra. Nam tristique feugiat justo, ullamcorper faucibus eros suscipit vel. Cras interdum, purus eget semper ullamcorper, felis lorem interdum justo, in tincidunt nulla erat vitae erat.</p>
+    </div>
+
   </div>
 </section>
 
@@ -120,9 +143,13 @@
       <img src="images/fall24-digitalphoto.jpg" alt="Placeholder image" loading="lazy"/>
       <img src="images/placeholder.jpg" alt="Placeholder image" loading="lazy"/>
     </div>
-    <h2>Fall 2024</h2>
-    <h3>Aug 2024 - Dec 2024</h3>
-    <p>Suspendisse ac vehicula sapien. Curabitur congue felis at erat congue, nec pulvinar mi pulvinar. Cras nisl dui, interdum sit amet viverra vitae, tempus sit amet urna. Donec ipsum odio, scelerisque id vehicula ut, pulvinar quis ipsum. Phasellus venenatis tristique felis a consectetur. Aenean consectetur, nulla nec tincidunt semper, nibh erat semper justo, vitae luctus lorem quam et quam. Curabitur ut metus sed est commodo iaculis. Donec sollicitudin purus sem, vitae consectetur dui tincidunt eu. Donec pretium nibh et diam porttitor, non vehicula augue viverra. Ut diam turpis, imperdiet et tempor fermentum, maximus a nunc. Donec bibendum in libero egestas tempus. Suspendisse vel sem eu turpis blandit viverra. Nam tristique feugiat justo, ullamcorper faucibus eros suscipit vel. Cras interdum, purus eget semper ullamcorper, felis lorem interdum justo, in tincidunt nulla erat vitae erat.</p>
+
+    <div class="semester-text">
+      <h2>Fall 2024</h2>
+      <h3>Aug 2024 - Dec 2024</h3>
+      <p>Suspendisse ac vehicula sapien. Curabitur congue felis at erat congue, nec pulvinar mi pulvinar. Cras nisl dui, interdum sit amet viverra vitae, tempus sit amet urna. Donec ipsum odio, scelerisque id vehicula ut, pulvinar quis ipsum. Phasellus venenatis tristique felis a consectetur. Aenean consectetur, nulla nec tincidunt semper, nibh erat semper justo, vitae luctus lorem quam et quam. Curabitur ut metus sed est commodo iaculis. Donec sollicitudin purus sem, vitae consectetur dui tincidunt eu. Donec pretium nibh et diam porttitor, non vehicula augue viverra. Ut diam turpis, imperdiet et tempor fermentum, maximus a nunc. Donec bibendum in libero egestas tempus. Suspendisse vel sem eu turpis blandit viverra. Nam tristique feugiat justo, ullamcorper faucibus eros suscipit vel. Cras interdum, purus eget semper ullamcorper, felis lorem interdum justo, in tincidunt nulla erat vitae erat.</p>
+    </div>
+  
   </div>
 </section>
 
@@ -135,9 +162,13 @@
       <img src="images/placeholder.jpg" alt="Placeholder image" loading="lazy"/>
       <img src="images/placeholder.jpg" alt="Placeholder image" loading="lazy"/>
     </div>
-        <h2>Spring 2024</h2>
-    <h3>Jan 2024 - May 2024</h3>
-    <p>Suspendisse ac vehicula sapien. Curabitur congue felis at erat congue, nec pulvinar mi pulvinar. Cras nisl dui, interdum sit amet viverra vitae, tempus sit amet urna. Donec ipsum odio, scelerisque id vehicula ut, pulvinar quis ipsum. Phasellus venenatis tristique felis a consectetur. Aenean consectetur, nulla nec tincidunt semper, nibh erat semper justo, vitae luctus lorem quam et quam. Curabitur ut metus sed est commodo iaculis. Donec sollicitudin purus sem, vitae consectetur dui tincidunt eu. Donec pretium nibh et diam porttitor, non vehicula augue viverra. Ut diam turpis, imperdiet et tempor fermentum, maximus a nunc. Donec bibendum in libero egestas tempus. Suspendisse vel sem eu turpis blandit viverra. Nam tristique feugiat justo, ullamcorper faucibus eros suscipit vel. Cras interdum, purus eget semper ullamcorper, felis lorem interdum justo, in tincidunt nulla erat vitae erat.</p>
+
+    <div class="semester-text">
+      <h2>Spring 2024</h2>
+      <h3>Jan 2024 - May 2024</h3>
+      <p>Suspendisse ac vehicula sapien. Curabitur congue felis at erat congue, nec pulvinar mi pulvinar. Cras nisl dui, interdum sit amet viverra vitae, tempus sit amet urna. Donec ipsum odio, scelerisque id vehicula ut, pulvinar quis ipsum. Phasellus venenatis tristique felis a consectetur. Aenean consectetur, nulla nec tincidunt semper, nibh erat semper justo, vitae luctus lorem quam et quam. Curabitur ut metus sed est commodo iaculis. Donec sollicitudin purus sem, vitae consectetur dui tincidunt eu. Donec pretium nibh et diam porttitor, non vehicula augue viverra. Ut diam turpis, imperdiet et tempor fermentum, maximus a nunc. Donec bibendum in libero egestas tempus. Suspendisse vel sem eu turpis blandit viverra. Nam tristique feugiat justo, ullamcorper faucibus eros suscipit vel. Cras interdum, purus eget semper ullamcorper, felis lorem interdum justo, in tincidunt nulla erat vitae erat.</p>
+    </div>
+  
   </div>
 </section>
 
@@ -150,19 +181,25 @@
       <img src="images/placeholder.jpg" alt="Placeholder image" loading="lazy"/>
       <img src="images/placeholder.jpg" alt="Placeholder image" loading="lazy"/>
     </div>
-        <h2>Fall 2023</h2>
-    <h3>Aug 2023 - Dec 2023</h3>
-    <p>Suspendisse ac vehicula sapien. Curabitur congue felis at erat congue, nec pulvinar mi pulvinar. Cras nisl dui, interdum sit amet viverra vitae, tempus sit amet urna. Donec ipsum odio, scelerisque id vehicula ut, pulvinar quis ipsum. Phasellus venenatis tristique felis a consectetur. Aenean consectetur, nulla nec tincidunt semper, nibh erat semper justo, vitae luctus lorem quam et quam. Curabitur ut metus sed est commodo iaculis. Donec sollicitudin purus sem, vitae consectetur dui tincidunt eu. Donec pretium nibh et diam porttitor, non vehicula augue viverra. Ut diam turpis, imperdiet et tempor fermentum, maximus a nunc. Donec bibendum in libero egestas tempus. Suspendisse vel sem eu turpis blandit viverra. Nam tristique feugiat justo, ullamcorper faucibus eros suscipit vel. Cras interdum, purus eget semper ullamcorper, felis lorem interdum justo, in tincidunt nulla erat vitae erat.</p>
+
+    <div class="semester-text">
+      <h2>Fall 2023</h2>
+      <h3>Aug 2023 - Dec 2023</h3>
+      <p>Suspendisse ac vehicula sapien. Curabitur congue felis at erat congue, nec pulvinar mi pulvinar. Cras nisl dui, interdum sit amet viverra vitae, tempus sit amet urna. Donec ipsum odio, scelerisque id vehicula ut, pulvinar quis ipsum. Phasellus venenatis tristique felis a consectetur. Aenean consectetur, nulla nec tincidunt semper, nibh erat semper justo, vitae luctus lorem quam et quam. Curabitur ut metus sed est commodo iaculis. Donec sollicitudin purus sem, vitae consectetur dui tincidunt eu. Donec pretium nibh et diam porttitor, non vehicula augue viverra. Ut diam turpis, imperdiet et tempor fermentum, maximus a nunc. Donec bibendum in libero egestas tempus. Suspendisse vel sem eu turpis blandit viverra. Nam tristique feugiat justo, ullamcorper faucibus eros suscipit vel. Cras interdum, purus eget semper ullamcorper, felis lorem interdum justo, in tincidunt nulla erat vitae erat.</p>
+    </div>
+
   </div>
 </section>
 
 <!-- FOOTER SECTION -->  
 <footer>
   <div class="container">
-      <p>Raena Nguyen. Copywrite © 2025, All Rights Reserved</p>
-      <p><a href="index.html">Home</a></p>
-      <p><a href="about.html">About</a></p>
-      <p><a href="#">Back to top</a></p>
+    <div class="footer">
+      <p class="footer-text">Raena Nguyen. Copywrite © 2025, All Rights Reserved</p>
+      <p class="footer-text"><a href="index.html">Home</a></p>
+      <p class="footer-text"><a href="about.html">About</a></p>
+      <p class="footer-text"><a href="#">Back to top</a></p>
+    </div>
   </div>
 </footer>
 
